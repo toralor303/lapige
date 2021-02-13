@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(62, 63, 65);
+}
+
+.deck {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.infoMessage {
+  margin-top: 3em;
+  color: lightgrey;
+}
+
+.btnDraw {
+  width: 250px;
+  margin-top: 2em;
+}
