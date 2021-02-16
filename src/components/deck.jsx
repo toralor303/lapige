@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Paper } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import deck from '../logic/deck';
 import Card from './Card';
 import styles from './deck.module.css';

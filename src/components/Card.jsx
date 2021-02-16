@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './card.module.css';
 
 const Card = ({ value, type, rule }) => {
-  const [flipped, setFlipped] = useState(false);
+  // const [flipped, setFlipped] = useState(false);
+  const flipped = false;
 
   const valueLetter = value === '10' ? '10' : value.split('')[0] ;
   const typeLetter = type.name.split('')[0];
