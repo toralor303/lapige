@@ -18,6 +18,9 @@ body {
   position: relative;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgb(22, 239, 255);
 }
 
 .back {
@@ -37,5 +40,6 @@ body {
 .front,
 .back {
   width: 100%;
+  height: 100%;
   position: absolute;
 }
